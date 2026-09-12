@@ -1,0 +1,560 @@
+//=====================================================================================================================
+event HudHealthBonusPulse
+{
+	//HELP ME PLEASE
+	Animate			PlayerStatusHealthValue1	   Alpha	   "0"					     Linear		0.0		0.0
+	Animate         PlayerStatusHealthValue	  	    FgColor	   "gradient"			Linear		0.0		0.0
+	Animate			PlayerStatusHealthValue			Alpha		"255"					Linear		0.0		0.0
+	Animate			gradient									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient2									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient3									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient4									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient5									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient6									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient7									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient8									   Alpha	   "255"				   Linear		0.0		0.0
+
+	//Pulse
+	Animate         PlayerStatusHealthValue	  	    FgColor	   "gradientBUFF"			  Linear		0.0		0.125
+	Animate         gradient	  	   							   FgColor	   "gradientBUFF1"		     Linear		0.0	  0.125
+	Animate         gradient2	  	    						  FgColor	   "gradientBUFF2"			Linear		0.0		0.125
+	Animate         gradient3	  	                              FgColor	   "gradientBUFF3"			Linear		0.0		0.125
+	Animate         gradient4	  	                              FgColor	   "gradientBUFF4"			Linear		0.0		0.125
+	Animate         gradient5	  	                              FgColor	   "gradientBUFF5"			Linear		0.0		0.125
+	Animate         gradient6	  	                              FgColor	   "gradientBUFF6"			Linear		0.0		0.125
+	Animate         gradient7	  	                              FgColor	   "gradientBUFF7"			Linear		0.0		0.125
+	Animate         gradient8	  	                              FgColor	   "gradientBUFF8"			Linear		0.0		0.125
+
+	Animate         PlayerStatusHealthValue	  	    FgColor	   "gradient"			  Linear		0.125		0.250
+	Animate         gradient	  	   							   FgColor	   "gradient1"		     Linear		0.125 	 0.250
+	Animate         gradient2	  	    						  FgColor	   "gradient2"			Linear		0.125		0.250
+	Animate         gradient3	  	                              FgColor	   "gradient3"			Linear		0.125		0.250
+	Animate         gradient4	  	                              FgColor	   "gradient4"			Linear		0.125		0.250
+	Animate         gradient5	  	                              FgColor	   "gradient5"			Linear		0.125		0.250
+	Animate         gradient6	  	                              FgColor	   "gradient6"			Linear		0.125		0.250
+	Animate         gradient7	  	                              FgColor	   "gradient7"			Linear		0.125		0.250
+	Animate         gradient8	  	                              FgColor	   "gradient8"			Linear		0.125		0.250
+
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"150"								Linear 	0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
+
+	//TARGET-ID (I'M GETTING SIDETRACKED)
+	//HELP ME PLEASE
+
+	Animate			PlayerStatusHealthValueID1	   Alpha	   "0"					     Linear		0.0		0.0
+	Animate         PlayerStatusHealthValueID	  	 FgColor	   "gradient"			Linear		0.0		0.0
+	Animate			PlayerStatusHealthValueID		Alpha		"255"					Linear		0.0		0.0
+	Animate			gradientID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient2ID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient3ID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient4ID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient5ID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient6ID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient7ID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient8ID									   Alpha	   "255"				   Linear		0.0		0.0
+
+	//Pulse
+	Animate         PlayerStatusHealthValueID	  	    FgColor	   "gradientBUFF"			  Linear		0.0		0.125
+	Animate         gradientID	  	   							   FgColor	   "gradientBUFF1"		     Linear		0.0	  0.125
+	Animate         gradient2ID	  	    						  FgColor	   "gradientBUFF2"			Linear		0.0		0.125
+	Animate         gradient3ID	  	                              FgColor	   "gradientBUFF3"			Linear		0.0		0.125
+	Animate         gradient4ID	  	                              FgColor	   "gradientBUFF4"			Linear		0.0		0.125
+	Animate         gradient5ID	  	                              FgColor	   "gradientBUFF5"			Linear		0.0		0.125
+	Animate         gradient6ID	  	                              FgColor	   "gradientBUFF6"			Linear		0.0		0.125
+	Animate         gradient7ID	  	                              FgColor	   "gradientBUFF7"			Linear		0.0		0.125
+	Animate         gradient8ID	  	                              FgColor	   "gradientBUFF8"			Linear		0.0		0.125
+
+	Animate         PlayerStatusHealthValueID	  	    FgColor	   "gradient"			  Linear		0.125		0.250
+	Animate         gradientID	  	   							   FgColor	   "gradient1"		     Linear		0.125 	 0.250
+	Animate         gradient2ID	  	    						  FgColor	   "gradient2"			Linear		0.125		0.250
+	Animate         gradient3ID	  	                              FgColor	   "gradient3"			Linear		0.125		0.250
+	Animate         gradient4ID	  	                              FgColor	   "gradient4"			Linear		0.125		0.250
+	Animate         gradient5ID	  	                              FgColor	   "gradient5"			Linear		0.125		0.250
+	Animate         gradient6ID	  	                              FgColor	   "gradient6"			Linear		0.125		0.250
+	Animate         gradient7ID	  	                              FgColor	   "gradient7"			Linear		0.125		0.250
+	Animate         gradient8ID	  	                              FgColor	   "gradient8"			Linear		0.125		0.250
+
+	//OFF
+	Animate			PlayerStatusHealthValueLOW			 Alpha		"0"					Linear		0.0		0.0
+	Animate			gradientLOW									        Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8LOW									   Alpha	   "0"				   Linear		0.0		0.0
+
+
+	RunEvent		HudHealthBonusPulseLoop			0.4
+}
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 			0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent		HudHealthBonusPulse				0.0
+	StopEvent		HudHealthBonusPulseLoop			0.0
+
+	Animate			PlayerStatusHealthValue1	   Alpha	   "255"					     Linear		0.0		0.0
+	Animate         PlayerStatusHealthValueID1  Alpha "255" 					Linear 0.0 0.0
+
+	//TARGET-ID
+	Animate			PlayerStatusHealthValueID		Alpha		"0"					Linear		0.0		0.0
+	Animate			gradientID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8ID									   Alpha	   "0"				   Linear		0.0		0.0
+
+	Animate			PlayerStatusHealthValueLOWID			 Alpha		"0"					Linear		0.0		0.0
+	Animate			gradientLOWID									        Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+
+	//OVERHEAL
+	Animate			PlayerStatusHealthValue			Alpha		"0"					Linear		0.0		0.0
+	Animate			gradient									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8									   Alpha	   "0"				   Linear		0.0		0.0
+
+	//LOW
+	Animate			PlayerStatusHealthValueLOW			Alpha		"0"					Linear		0.0		0.0
+	Animate			gradientLOW									   		Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8LOW									   Alpha	   "0"				   Linear		0.0		0.0
+}
+//=====================================================================================================================
+event HudHealthDyingPulse
+{
+	//TARGET-ID (LIVE-ACTION LOBOTOMY)
+	Animate			PlayerStatusHealthValueID1	           Alpha	   "0"					     Linear		0.0		0.0
+	Animate			PlayerStatusHealthValueLOWID	   Alpha		"255"					Linear		0.0		0.0
+	Animate			gradientLOWID									        Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient2LOWID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient3LOWID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient4LOWID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient5LOWID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient6LOWID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient7LOWID									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient8LOWID									   Alpha	   "255"				   Linear		0.0		0.0
+
+	Animate         PlayerStatusHealthValueLOWID  	    FgColor	   "gradientLOW1"			  Linear		0.0		0.125
+	Animate         gradientLOWID	  	   							  	   FgColor	   "gradientLOW2"		     Linear		0.0	  0.125
+	Animate         gradient2LOWID	  	    						  FgColor	   "gradientLOW3"			Linear		0.0		0.125
+	Animate         gradient3LOWID	  	                              FgColor	   "gradientLOW4"			Linear		0.0		0.125
+	Animate         gradient4LOWID	  	                              FgColor	   "gradientLOW5"			Linear		0.0		0.125
+	Animate         gradient5LOWID	  	                              FgColor	   "gradientLOW6"			Linear		0.0		0.125
+	Animate         gradient6LOWID	  	                              FgColor	   "gradientLOW7"			Linear		0.0		0.125
+	Animate         gradient7LOWID	  	                              FgColor	   "gradientLOW8"			Linear		0.0		0.125
+	Animate         gradient8LOWID	  	                              FgColor	   "gradientLOW9"			Linear		0.0		0.125
+
+	Animate         PlayerStatusHealthValueLOWID	  	    FgColor	   "gradientLOW"			  Linear		0.125		0.250
+	Animate         gradientLOWID	  	   							   	   FgColor	   "gradient1LOW"		     Linear		0.125 	 0.250
+	Animate         gradient2LOWID	  	    						           FgColor	   "gradient2LOW"			Linear		0.125		0.250
+	Animate         gradient3LOWID	  	                                       FgColor	   "gradient3LOW"			Linear		0.125		0.250
+	Animate         gradient4LOWID	  	                                       FgColor	   "gradient4LOW"			Linear		0.125		0.250
+	Animate         gradient5LOWID	  	                                       FgColor	   "gradient5LOW"			Linear		0.125		0.250
+	Animate         gradient6LOWID	  	                                       FgColor	   "gradient6LOW"			Linear		0.125		0.250
+	Animate         gradient7LOWID	  	                                       FgColor	   "gradient7LOW"			Linear		0.125		0.250
+	Animate         gradient8LOWID	  	                                       FgColor	   "gradient8LOW"			Linear		0.125		0.250
+
+	//LOW HP
+	Animate			PlayerStatusHealthValue1	             Alpha	   "0"					     Linear		0.0		0.0
+	Animate			PlayerStatusHealthValueLOW			 Alpha		"255"					Linear		0.0		0.0
+	Animate			gradientLOW									        Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient2LOW									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient3LOW									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient4LOW									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient5LOW									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient6LOW									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient7LOW									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient8LOW									   Alpha	   "255"				   Linear		0.0		0.0
+
+	//Pulse
+	Animate         PlayerStatusHealthValueLOW  	    FgColor	   "gradientLOW1"			  Linear		0.0		0.125
+	Animate         gradientLOW	  	   							  	   FgColor	   "gradientLOW2"		     Linear		0.0	  0.125
+	Animate         gradient2LOW	  	    						  FgColor	   "gradientLOW3"			Linear		0.0		0.125
+	Animate         gradient3LOW	  	                              FgColor	   "gradientLOW4"			Linear		0.0		0.125
+	Animate         gradient4LOW	  	                              FgColor	   "gradientLOW5"			Linear		0.0		0.125
+	Animate         gradient5LOW	  	                              FgColor	   "gradientLOW6"			Linear		0.0		0.125
+	Animate         gradient6LOW	  	                              FgColor	   "gradientLOW7"			Linear		0.0		0.125
+	Animate         gradient7LOW	  	                              FgColor	   "gradientLOW8"			Linear		0.0		0.125
+	Animate         gradient8LOW	  	                              FgColor	   "gradientLOW9"			Linear		0.0		0.125
+
+	Animate         PlayerStatusHealthValueLOW	  	    FgColor	   "gradientLOW"			  Linear		0.125		0.250
+	Animate         gradientLOW	  	   							   	   FgColor	   "gradient1LOW"		     Linear		0.125 	 0.250
+	Animate         gradient2LOW	  	    						           FgColor	   "gradient2LOW"			Linear		0.125		0.250
+	Animate         gradient3LOW	  	                                       FgColor	   "gradient3LOW"			Linear		0.125		0.250
+	Animate         gradient4LOW	  	                                       FgColor	   "gradient4LOW"			Linear		0.125		0.250
+	Animate         gradient5LOW	  	                                       FgColor	   "gradient5LOW"			Linear		0.125		0.250
+	Animate         gradient6LOW	  	                                       FgColor	   "gradient6LOW"			Linear		0.125		0.250
+	Animate         gradient7LOW	  	                                       FgColor	   "gradient7LOW"			Linear		0.125		0.250
+	Animate         gradient8LOW	  	                                       FgColor	   "gradient8LOW"			Linear		0.125		0.250
+
+	Animate			PlayerStatusHealthBonusImage 		Alpha		"150"								Linear 	0.0 0.2
+	Animate			PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
+
+	//OFF
+	Animate			PlayerStatusHealthValue			Alpha		"0"					Linear		0.0		0.0
+	Animate			gradient									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8									   Alpha	   "0"				   Linear		0.0		0.0
+
+	RunEvent		HudHealthDyingPulseLoop			0.4
+}
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 			0.0
+}
+event HudHealthDyingPulseStop
+{
+	StopEvent		HudHealthDyingPulse				0.0
+	StopEvent		HudHealthDyingPulseLoop			0.0
+
+	Animate			PlayerStatusHealthValue1	    Alpha	   "255"					     Linear		0.0		0.0
+	Animate         PlayerStatusHealthValueID1 	 Alpha "255" 					Linear 0.0 0.0	
+
+	//TARGET-ID
+	Animate			PlayerStatusHealthValueID		Alpha		"0"					Linear		0.0		0.0
+	Animate			gradientID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7ID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8ID									   Alpha	   "0"				   Linear		0.0		0.0
+
+	Animate			PlayerStatusHealthValueLOWID			 Alpha		"0"					Linear		0.0		0.0
+	Animate			gradientLOWID									        Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8LOWID									   Alpha	   "0"				   Linear		0.0		0.0
+
+	//OVERHEAL
+	Animate			PlayerStatusHealthValue			Alpha		"0"					Linear		0.0		0.0
+	Animate			gradient									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8									   Alpha	   "0"				   Linear		0.0		0.0
+
+	//LOW
+	Animate			PlayerStatusHealthValueLOW			Alpha		"0"					Linear		0.0		0.0
+	Animate			gradientLOW									   		Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7LOW									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8LOW									   Alpha	   "0"				   Linear		0.0		0.0
+
+}
+//=====================================================================================================================
+event HudLowAmmoPulse
+{
+	Animate			AmmoInClip	 							  Alpha	   "0"					     Linear		0.0		0.0
+	Animate			AmmoInClip1								Alpha		"255"					Linear		0.0		0.0
+	Animate			gradient									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient2									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient3									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient4									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient5									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient6									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient7									   Alpha	   "255"				   Linear		0.0		0.0
+	Animate			gradient8									   Alpha	   "255"				   Linear		0.0		0.0
+
+	//Pulse
+	Animate         AmmoInClip1	  	  						  FgColor	   "gradientLOW1"			  Linear		0.0		0.125
+	Animate         gradient	  	   							   FgColor	   "gradientLOW2"		     Linear		0.0	  0.125
+	Animate         gradient2	  	    						  FgColor	   "gradientLOW3"			Linear		0.0		0.125
+	Animate         gradient3	  	                              FgColor	   "gradientLOW4"			Linear		0.0		0.125
+	Animate         gradient4	  	                              FgColor	   "gradientLOW5"			Linear		0.0		0.125
+	Animate         gradient5	  	                              FgColor	   "gradientLOW6"			Linear		0.0		0.125
+	Animate         gradient6	  	                              FgColor	   "gradientLOW7"			Linear		0.0		0.125
+	Animate         gradient7	  	                              FgColor	   "gradientLOW8"			Linear		0.0		0.125
+	Animate         gradient8	  	                              FgColor	   "gradientLOW9"			Linear		0.0		0.125
+
+	Animate         AmmoInClip1	  	   						 FgColor	   "gradientLOW"			  Linear		0.125		0.250
+	Animate         gradient	  	   							   FgColor	   "gradient1LOW"		     Linear		0.125 	 0.250
+	Animate         gradient2	  	    						  FgColor	   "gradient2LOW"			Linear		0.125		0.250
+	Animate         gradient3	  	                              FgColor	   "gradient3LOW"			Linear		0.125		0.250
+	Animate         gradient4	  	                              FgColor	   "gradient4LOW"			Linear		0.125		0.250
+	Animate         gradient5	  	                              FgColor	   "gradient5LOW"			Linear		0.125		0.250
+	Animate         gradient6	  	                              FgColor	   "gradient6LOW"			Linear		0.125		0.250
+	Animate         gradient7	  	                              FgColor	   "gradient7LOW"			Linear		0.125		0.250
+	Animate         gradient8	  	                              FgColor	   "gradient8LOW"			Linear		0.125		0.250
+
+	//AmmoInReserve
+	Animate         AmmoInReserve	  	   				FgColor	   "gradientLOW1"			Linear		0.0		0.125
+	Animate         AmmoInReserve	  	   				FgColor	   "gradient8LOW"			Linear		0.125		0.250
+
+	RunEvent		HudLowAmmoPulseLoop				0.4
+}
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 			0.0
+}
+event HudLowAmmoPulseStop
+{
+	StopEvent		HudLowAmmoPulse					0.0
+	StopEvent		HudLowAmmoPulseLoop				0.0
+
+	Animate         AmmoInReserve	  	   				FgColor	   "White"			Linear		0.0		0.0
+	Animate			AmmoInClip		 					  	Alpha	   "255"					     Linear		0.0		0.0
+	Animate			AmmoInClip1								Alpha		"0"					Linear		0.0		0.0
+	Animate			gradient									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient2									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient3									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient4									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient5									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient6									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient7									   Alpha	   "0"				   Linear		0.0		0.0
+	Animate			gradient8									   Alpha	   "0"				   Linear		0.0		0.0
+
+	Animate			AmmoInClip						FgColor		"White"					Linear		0.0		0.0
+	Animate			AmmoInReserve					FgColor		"White"					Linear		0.0		0.0
+	Animate			AmmoNoClip						FgColor		"White"					Linear		0.0		0.0
+}
+//=====================================================================================================================
+event HudMedicCharged
+{
+	Animate			ChargeLabel						FgColor		"Main"					Linear		0.0		0.0
+
+	RunEvent		HudMedicChargedLoop				0.6
+}
+event HudMedicChargedStop
+{
+	StopEvent		HudMedicCharged					0.0
+	StopEvent		HudMedicChargedLoop				0.0
+
+	Animate			ChargeLabel						FgColor		"White"					Linear		0.0		0.0
+}
+//=====================================================================================================================
+event HudTournamentSetupPanelOpen
+{
+	Animate			HudTournamentSetup				ypos		"30"					Linear		0.0		0.0
+}
+event HudTournamentSetupPanelClose
+{
+	Animate			HudTournamentSetup				ypos		"-35"					Linear		0.0		0.0
+}
+//=====================================================================================================================
+event FlagOutline
+{
+	RunEvent		FlagOutlineHide					0.0
+
+	Animate			OutlineImage					Alpha		"255"					Linear		0.1		0.2
+
+	Animate			OutlineImage					Position	"c-14 r70"				Linear		0.1		0.2
+	Animate			OutlineImage					Size		"28 28"					Linear		0.1		0.2
+
+	Animate			OutlineImage					Position	"c-5 r0"				Linear		0.7		0.2
+	Animate			OutlineImage					Size		"10 10"					Linear		0.7		0.2
+
+	Animate			OutlineImage					Alpha		"0"						Linear		0.9		0.1
+}
+//=====================================================================================================================
+event ActiveTimerBGPulse
+{
+	Animate			ActiveTimerBG					Alpha		"255"					Linear		0.0		0.0
+}
+event ActiveTimerHighlight
+{
+	Animate			TimePanelValue					FgColor		"Main"					Linear		0.0		0.0
+}
+event ActiveTimerDim
+{
+	Animate			TimePanelValue					FgColor		"White"					Linear		0.0		0.0
+}
+//=====================================================================================================================
+event SurveyShowSequence
+{
+	RunEventChild	Survey	SurveyDelete	0.1
+}
+//=====================================================================================================================
+event HintMessageShow
+{
+	Animate			HudHintDisplay					HintSize	"1"						Deaccel		0.0		0.3
+	Animate			HudHintDisplay					HintSize	"0"						Deaccel		10.2	0.3
+}
+event HintMessageHide
+{
+	Animate			HudHintDisplay					HintSize	"0"						Deaccel		0.2		0.3
+}
+event KeyHintMessageShow
+{
+	Animate			HudHintKeyDisplay				Alpha		"255"					Linear		0.0		0.5
+	Animate			HudHintKeyDisplay				Alpha		"0"						Linear		12.0	1.0
+}
+event KeyHintMessageHide
+{
+	Animate			HudHintKeyDisplay				Alpha		"0"						Linear		0.0		0.5
+}
+//=====================================================================================================================
+event HudTournament_ShowTimerCompetitive
+{
+	Animate			CountdownLabel					ypos		"100"					Linear		0		0
+	Animate			CountdownLabelShadow			ypos		"100"					Linear		0		0
+
+	SetVisible		CountdownBG						1	0
+	SetVisible		CountdownLabel					1	0
+	SetVisible		CountdownLabelShadow			1	0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	Animate			CountdownLabel					ypos		"100"					Linear		0		0
+	Animate			CountdownLabelShadow			ypos		"100"					Linear		0		0
+
+	SetVisible		CountdownBG						1	0
+	SetVisible		CountdownLabel					1	0
+	SetVisible		CountdownLabelShadow			1	0
+}
+//=====================================================================================================================
+
+event MenuPulse{}
+event TimerIncrement{}
+event TimerDecrement{}
+event ResourceIncrement{}
+event ResourceDecrement{}
+event ResourcePickup{}
+event ControlPointIconShrink{}
+event ControlPointIconGrow{}
+event AccountMoneyRemoved{}
+event AccountMoneyAdded{}
+event AccountMoneyInvisible{}
+event HudSpyDisguiseChanged{}
+event HudSpyDisguiseHide{}
+event HudSpyDisguiseFadeIn{}
+event HudSpyDisguiseFadeOut{}
+event HudSnapShotReminderIn{}
+event HudReplayReminderIn{}
+event HudReplayReminderIn2{}
+event HudReplayTipIn{}
+event HudReplayTipOut{}
+event VideoCaptionFadeIn{}
+event VideoCaptionFadeOut{}
+event ArenaVsPanelOnShow{}
+event ArenaVsPanelSlideIn{}
+event ArenaVsPanelSlideOut{}
+event HudCartAlarmPulse{}
+event HudCartAlarmPulseLoop{}
+event HudCartAlarmPulseStop{}
+event OvertimeLabelPulseRed{}
+event SuddenDeathLabelPulseRed{}
+event TeamsFullArrowAnimate{}
+event TeamsFullArrowAnimateLoop{}
+event TeamsFullArrowAnimateEnd{}
+event TrainingHudBounce{}
+event TrainingPressSpacebarBlink{}
+event TrainingPressSpacebarBlinkLoop{}
+event TrainingPressSpacebarBlinkStop{}
+event IntroMovieContinueBlink{}
+event IntroMovieContinueBlinkLoop{}
+event IntroMovieContinueBlinkStop{}
+event HasMOTDBlink{}
+event HasMOTDBlinkLoop{}
+event HasMOTDBlinkStop{}
+event HasNotificationsBlink{}
+event HasNotificationsBlinkLoop{}
+event HasNotificationsBlinkStop{}
+event AddToCartBlink{}
+event NotificationsPresentBlink{}
+event NotificationsPresentBlinkLoop{}
+event NotificationsPresentBlinkStop{}
+event DamagedPlayer{}
+event SpyWarningFlash{}
+event SpyWarningFlashLoop{}
+event SpyWarningFlashEnd{}
+event HudReadyPulse{}
+event HudReadyPulseLoop{}
+event HudReadyPulseEnd{}
+event RespecEarnedPulse{}
+event RespecEarnedPulseLoop{}
+event RespecEarnedPulseEnd{}
+event RespecEarnedPulseLoss{}
+event RespecEarnedPulseLoopLoss{}
+event RespecEarnedPulseEndLoss{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event CollectionCrafting_OKBlink_Repeatable{}
+event CollectionCrafting_OKBlink{}
+event QuestItem_Options_Flash{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+event HudTournament_AnimateTeams_In{}
+event HudTournament_AnimateTeams_Out{}
+event HudMatchStatus_ShowMatchStartDoors{}
+event HudMatchStatus_ShowRankMatch{}
+event HudTournament_DoorsCleanup{}
+event PlayDoorSlamParticles{}
+event PlayDoorCloseAnim{}
+event PlayDoorOpenAnim{}
+event HudTournament_ShowRoundSign{}
+event HudTournament_PlaySignAnim{}
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}
+event HudMatchStatus_ShowMatchWinDoors{}
+event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
+event MMenu_PlayList_Expand{}
+event MMenu_PlayList_Collapse{}
+event MMenu_PlayList_Collapse_Immediate{}
+event MMenu_SafeMode_Blink{}
+event PvPRankModelClicked{}
+event PvPRankLevelUpXPBar{}
+event PvPRankLevelUpModel{}
+event PvPRankLevelDownXPBar{}
+event PvPRankLevelDownModel{}
+event PyroVsHeavyWar_ShowChooseScene{}
+event PyroVsHeavyWar_PyroWinnerScene{}
+event CasualCategory_Checkbox_Hide{}
+event CasualCategory_Checkbox_Show{}
+event CasualCategory_Selected{}
+event CasualCategory_NotSelected{}
+event HealthProgressBar_Selected{}
+event HealthProgressBar_NotSelected{}
+event MMenu_UpdateButton_StartGlow{}
+event MMenu_UpdateButton_SubtleGlow{}
+event XPSourceShow_Positive{}
+event XPSourceShow_Negative{}
+event MapVoted{}
+event WinningNextMapVote{}
+event LosingNextMapVote{}
+
+//=====================================================================================================================
