@@ -1,4 +1,6 @@
-# Sels-uwui (Gradient) | LightHUD as base [SCREENSHOTS]() - Still not yet done
+# Sels-uwui (Gradient) | LightHUD as base [SCREENSHOTS]()
+(Still unfinished) - (In short I'm a chud and too lazy)
+
 
 I'm bored and decided to make a "normal" hud but with some goofy shit so enjoy! 
 
