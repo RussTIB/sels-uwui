@@ -4,7 +4,7 @@
 
 I'm bored and decided to make a "normal" hud but with some goofy shit so enjoy! 
 
-If ever there is a bug notify me in my discord -> lodtweak
+If ever there is a bug notify me in my discord -> birth_day._
 
 # Credits -
 Jotunn - MenuBG & BackpackBG
