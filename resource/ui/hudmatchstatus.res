@@ -13,7 +13,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
 		"xpos"										"cs-0.5"
-		"ypos"										"0"
+		"ypos"										"2"
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"30"
@@ -30,14 +30,15 @@
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"f0"
-			"tall"									"f0"
+			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"textAlignment"							"north"
+			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallishBoldShadow"
+			"font"									"Game 12"
 			"fgcolor"								"White"
+			"bgcolor_override"						"0 0 0 180"
 		}
 	}
 	"TeamStatus"
@@ -52,18 +53,18 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"20"
+		"max_size"									"24"
 
-		"6v6_gap"									"1"
-		"12v12_gap"									"1"
+		"6v6_gap"									"0"
+		"12v12_gap"									"0"
 
 		"team1_grow_dir"							"west"
-		"team1_base_x"								"c-45"
-		"team1_max_expand"							"180"
+		"team1_base_x"								"c-20"
+		"team1_max_expand"							"160"
 
 		"team2_grow_dir"							"east"
-		"team2_base_x"								"c45"
-		"team2_max_expand"							"180"
+		"team2_base_x"								"c20"
+		"team2_max_expand"							"160"
 
 		"playerpanels_kv"
 		{

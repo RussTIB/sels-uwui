@@ -11,9 +11,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override"					"DarkBrown"
-		"outoffocus_bgcolor_override"				"DarkBrown"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -77,6 +77,21 @@
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
+	}
+	"BackpackBG"
+    {
+    	"ControlName" "ImagePanel" 
+		"fieldName" "BackpackBG"
+        "xpos" "0" 
+		"ypos" "0" 
+		"zpos" "-9999" 
+		"wide" "f0" 
+		"tall" "480"
+        "visible" "1" 
+		"enabled" "1" 
+		"image" "replay/thumbnails/BackpackBG" 
+		"scaleImage" "1"
+		"proportionaltoparent"	"1"
 	}
 	"ClassModelPanel"
 	{

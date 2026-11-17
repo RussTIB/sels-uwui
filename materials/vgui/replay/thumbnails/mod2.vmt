@@ -1,0 +1,22 @@
+"Modulate"
+{
+	"$baseTexture" "vgui/replay/thumbnails/modulatetest"
+	"$vertexalpha" 1
+	"$translucent" 1
+	"$additive" 1
+	"$scaleamount" "[-1 1]"
+	    "Proxies"
+		{
+	          "AnimatedTexture"
+	          {
+                                             "animatedtexturevar" "$basetexture"
+                                             "animatedtextureframenumvar" "$frame"
+                                             "animatedtextureframerate" 18
+	          }
+			   "TextureTransform"
+	          {
+                                             "scaleVar" "$scaleamount"
+                                             "resultVar" "$basetexturetransform"	          
+              }
+     }
+}

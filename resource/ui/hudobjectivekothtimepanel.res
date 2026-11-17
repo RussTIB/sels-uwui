@@ -4,11 +4,11 @@
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"BlueTimerBG"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"23"
+		"ypos"										"5"
 		"zpos"										"1"
 		"wide"										"40"
-		"tall"										"14"
+		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -20,8 +20,8 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"BlueTimer"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"3"
 		"zpos"										"2"
 		"wide"										"40"
 		"tall"										"14"
@@ -42,7 +42,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontMediumSmallShadow"
+			"font"									"Game 10"
 			"fgcolor"								"White"
 		}
 	}
@@ -50,11 +50,11 @@
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"RedTimerBG"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"23"
+		"ypos"										"15"
 		"zpos"										"1"
 		"wide"										"40"
-		"tall"										"14"
+		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -66,8 +66,8 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"13"
 		"zpos"										"2"
 		"wide"										"40"
 		"tall"										"14"
@@ -89,7 +89,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontMediumSmallShadow"
+			"font"									"Game 10"
 			"fgcolor"								"White"
 		}
 	}

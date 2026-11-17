@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override"					"DarkBrown"
-		"outoffocus_bgcolor_override"				"DarkBrown"
+		"bgcolor_override"							"Blank"
+		"infocus_bgcolor_override"					"Blank"
+		"outoffocus_bgcolor_override"				"Blank"
 
 		"title"										""
 		"title_font"								""

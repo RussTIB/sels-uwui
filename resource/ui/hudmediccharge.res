@@ -1,3 +1,4 @@
+#base gradient/gradient_mediccharge.res	
 "Resource/UI/HudMedicCharge.res"
 {
 	"UberAnchor"
@@ -12,19 +13,59 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
+	"ChargeMeter"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ChargeMeter"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"zpos"										"2"
+		"wide"										"f0"
+		"tall"										"4"
+		"visible"									"0"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+	}
+	"Circle"
+    {
+        "ControlName"                               "CircularProgressBar"
+        "variable"                                  "Charge"
+        "fg_image"                                  "replay/thumbnails/uber"
+		"bg_image"                                  "replay/thumbnails/nouber"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"                                   
+		"wide"										"28"
+		"tall"										"28"      
+		"zpos"    									"5"
+		"alpha"										"150"
+    }
+	"CircleSpin"
+    {
+        "ControlName"                               "ImagePanel"
+		"fieldName"                                 "CircleSpin"
+        "variable"                                  "Charge"
+        "image"                                		"replay/thumbnails/uber_spin"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"                                   
+		"wide"										"28"
+		"tall"										"28"      
+		"zpos"    									"5"
+		"alpha"										"0"
+		"scaleImage"									"1"
+    }	
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"-4"
+		"ypos"										"-9"
 		"zpos"										"2"
 		"wide"										"150"
 		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
+		"textAlignment"								"North"
 		"font"										"Game 22"
 		"fgcolor"									"White"
 
@@ -32,10 +73,10 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	"ChargeLabel2"
+	"ChargeLabel_Shadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel2"
+		"fieldName"									"ChargeLabel_Shadow"
 		"xpos"										"0"
 		"ypos"										"-2"
 		"zpos"										"2"
@@ -44,7 +85,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
+		"textAlignment"								"North"
 		"font"										"Game 22 Blur"
 		"fgcolor"									"0 0 0 250"
 
@@ -103,7 +144,6 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"ChargeMeter"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 	"ChargeMeter1"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter1" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 	"ChargeMeter2"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter2" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 	"ChargeMeter3"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter3" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}

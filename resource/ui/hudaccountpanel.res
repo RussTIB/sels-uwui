@@ -18,7 +18,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmallishBold"
+		"font"										"Game 14"
 		"fgcolor"									"White"
 	}
 	"AccountValueShadow"
@@ -26,7 +26,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValueShadow"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-1"
 		"zpos"										"2"
 		"wide"										"101"
 		"tall"										"21"
@@ -35,8 +35,8 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmallishBold"
-		"fgcolor"									"LabelTransparent"
+		"font"										"Game 14 Blur"
+		"fgcolor"									"0 0 0 250"
 		"pin_to_sibling"							"AccountValue"
 	}
 }

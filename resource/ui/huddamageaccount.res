@@ -8,8 +8,8 @@
 		"text_y"									"0"
 		"delta_item_end_y"							"0"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"Size 18 Outline"
-		"delta_item_font_big"						"Size 18 Outline"
+		"delta_item_font"							"Game 14"
+		"delta_item_font_big"						"Game 14"
 		"alpha"										"255"
 	}
 	"DamageAccountValue"
@@ -26,7 +26,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
-		"font"										"Size 14 Outline"
+		"font"										"Game 14"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -42,7 +42,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"fgcolor"									"LabelTransparent"
-		"font"										"Size 14 Outline"
+		"font"										"Game 14"
 		"pin_to_sibling"							"DamageAccountValue"
 	}
 }

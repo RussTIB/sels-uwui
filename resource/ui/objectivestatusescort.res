@@ -4,139 +4,113 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusEscort"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1+10"
+		"xpos"										"cs-0.5+2"
+		"ypos"										"rs1+16"
 		"zpos"										"1"
-		"wide"										"160"
-		"tall"										"50"
+		"wide"										"100"
+		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
-		"progress_xpos"								"79"
-		"progress_wide"								"270"
+		"progress_xpos"								""
+		"progress_wide"								""
 
 		"if_multiple_trains"
 		{
 			"ypos"									"rs1"
-			"tall"									"100"
 		}
 	}
-	"LevelBar"
+	"Cart_Tracks"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"LevelBar"
-		"xpos"										"cs-0.5"
+		"fieldName"									"Cart_Tracks"
+		"xpos"										"rs1-12"
 		"ypos"										"cs-0.5"
 		"zpos"										"0"
-		"wide"										"120"
+		"wide"										"82"
 		"tall"										"4"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									""
-		"image"										"../hud/cart_track"
 		"scaleImage"								"1"
+		"image"										"../hud/cart_track"
 		"proportionaltoparent"						"1"
 
-		"if_multiple_trains"
-		{
-			"tall"									"12"
-			"image"									"../hud/cart_track_neutral_opaque"
-		}
-		"if_single_with_hills"
-		{
-			"tall"									"10"
-			"image"									"../hud/cart_track_neutral_opaque"
-		}
 	}
 	"ProgressBar"
 	{
 		"ControlName"								"CTFHudEscortProgressBar"
 		"fieldName"									"ProgressBar"
-		"xpos"										"cs-0.5"
+		"xpos"										"rs1-12"
 		"ypos"										"cs-0.5"
-		"zpos"										"4"
-		"wide"										"120"
-		"tall"										"4"
+		"zpos"										"0"
+		"wide"										"82"
+		"tall"										"5"
 		"visible"									"0"
 		"enabled"									"1"
 		"scaleImage"								"1"
+		"image"										""
 		"proportionaltoparent"						"1"
+
+	}
+	"LevelBar"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"LevelBar"
+		"xpos"										"rs1-10"
+		"ypos"										"cs-0.5"
+		"zpos"										"1"
+		"wide"										"82"
+		"tall"										"5"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"image"										""
+		"scaleImage"								"1"
 
 		"if_multiple_trains"
 		{
-			"zpos"									"6"
-			"tall"									"12"
-			"visible"								"1"
+			"tall"									"4"
 		}
 	}
 	"HomeCPIcon"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HomeCPIcon"
-		"xpos"										"11"
+		"xpos"										"0"
 		"ypos"										"cs-0.5"
-		"zpos"										"1"
-		"wide"										"14"
-		"tall"										"14"
+		"zpos"										"6"
+		"wide"										"10"
+		"tall"										"10"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									""
-		"image"										"../hud/cart_home_blue"
+		"image"									"../hud/cart_point_neutral_opaque"
 		"scaleImage"								"1"
 
 		"if_team_red"
 		{
-			"image"									"../hud/cart_home_red"
-		}
-		"if_single_with_hills_blue"
-		{
-			"image"									"../hud/cart_home_blue_opaque"
-		}
-		"if_single_with_hills_red"
-		{
-			"image"									"../hud/cart_home_red_opaque"
+			"image"								"../hud/cart_point_neutral_opaque"
 		}
 		"if_multiple_trains"
 		{
-			"image"									"../hud/cart_track_neutral_opaque"
-		}
-		"if_multiple_trains_top"
-		{
-			"xpos"									"7"
-		}
-		"if_multiple_trains_bottom"
-		{
-			"xpos"									"7"
-		}
-		"if_multiple_trains_red"
-		{
-			"image"									"../hud/cart_home_red_square"
-		}
-		"if_multiple_trains_blue"
-		{
-			"image"									"../hud/cart_home_blue_square"
+			"image"								"../hud/cart_point_neutral_opaque"
 		}
 	}
 	"SimpleControlPointTemplate"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SimpleControlPointTemplate"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
-		"zpos"										"1"
-		"wide"										"14"
-		"tall"										"14"
+		"zpos"										"6"
+		"wide"										"10"
+		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									""
-		"image"										"../hud/cart_point_neutral"
+		"image"										"../hud/cart_point_neutral_opaque"
 		"scaleImage"								"1"
-
-		"if_multiple_trains"
-		{
-			"zpos"									"5"
-		}
 	}
 	"EscortItemPanel"
 	{
@@ -145,52 +119,64 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"47"
-		"tall"										"75"
+		"wide"										"170"	// Twice the lenght of the "ProgressBar"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 
-		"if_multiple_trains"
+		"FillBar"
 		{
-			"zpos"									"8"
-			"wide"									"47"
-			"tall"									"170"
-		}
-		"RecedeTime"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"RecedeTime"
-			"xpos"									"14"
-			"ypos"									"3"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"FillBar"
+			"xpos"									"0"
+			"ypos"									"cs-0.5"
 			"zpos"									"2"
-			"wide"									"20"
-			"tall"									"7"
+			"wide"									"86"
+			"tall"									"3"
 			"visible"								"1"
 			"enabled"								"1"
+			"fillcolor"								"91 122 142 255"
+			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
-			"font"									"DefaultVerySmall"
-			"labelText"								"%recede%"
-			"textAlignment"							"center"
 
-			"if_multiple_trains_top"
+			"if_multiple_trains_blue"
 			{
-				"ypos"								"4"
+				"fillcolor"							"91 122 142 255"
+
 			}
-			"if_multiple_trains_bottom"
+			"if_multiple_trains_red"
 			{
-				"ypos"								"36"
+				"fillcolor"							"189 59 59 255"
+
+			}
+			// Works but looks pretty off on lower res
+			// "if_multiple_trains_top"
+			// {
+			// 	"ypos"								"cs-0.5-1"
+			// 	"tall"								"2"
+			// }
+			// "if_multiple_trains_bottom"
+			// {
+			// 	"ypos"								"cs-0.5+1"
+			// 	"tall"								"2"
+			// }
+			"if_multiple_trains"
+			{
+			"xpos"									"3"
+			"ypos"									"cs-0.5"
+			"wide"									"82"
 			}
 		}
 		"EscortItemImage"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImage"
-			"xpos"									"13"
-			"ypos"									"2"
-			"zpos"									"1"
-			"wide"									"20"
-			"tall"									"20"
+			"xpos"									"67+11"
+			"ypos"									"14"
+			"zpos"									"0"
+			"wide"									"16"
+			"tall"									"16"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -206,17 +192,23 @@
 			{
 				"image"								"../hud/cart_red"
 			}
+			"if_multiple_trains"
+			{
+				"xpos"									"67+10"
+				"ypos"								"14"
+				"wide"								"16"
+				"tall"								"16"
+			}
 		}
-
 		"EscortItemImageBottom"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"EscortItemImageBottom"
-			"xpos"									"13"
-			"ypos"									"29"
-			"zpos"									"1"
-			"wide"									"20"
-			"tall"									"20"
+			"xpos"									"67+10"
+			"ypos"									"rs1-5"
+			"zpos"									"0"
+			"wide"									"16"
+			"tall"									"16"
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -232,16 +224,83 @@
 			{
 				"image"								"../hud/cart_red_bottom"
 			}
+			"if_multiple_trains"
+			{
+				"xpos"								"67+10"
+				"ypos"								"rs1-12"
+				"wide"								"16"
+				"tall"								"16"
+			}
+		}
+		"CapNumPlayers"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"CapNumPlayers"
+			"xpos"									"67+6"
+			"ypos"									"4"
+			"zpos"									"4"
+			"wide"									"27"
+			"tall"									"12"
+			"visible"								"0"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Game 11"
+			"labelText"								"#ControlPointIconCappers"
+			"textAlignment"							"center"
+
+			"if_multiple_trains"
+			{
+				"xpos"									"67+5"
+				"font"								"Game 11"
+			}
+			"if_multiple_trains_top"
+			{
+				"ypos"								"3"
+			}
+			"if_multiple_trains_bottom"
+			{
+				"ypos"								"rs1-12"
+			}
+		}
+		"RecedeTime"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"RecedeTime"
+			"xpos"									"67+6"
+			"ypos"									"4"
+			"zpos"									"2"
+			"wide"									"27"
+			"tall"									"12"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"Game 11"
+			"labelText"								"%recede%"
+			"textAlignment"							"center"
+
+			"if_multiple_trains"
+			{
+				"xpos"									"67+5"
+				"font"								"Game 11"
+			}
+			"if_multiple_trains_top"
+			{
+				"ypos"								"7"
+			}
+			"if_multiple_trains_bottom"
+			{
+				"ypos"								"rs1-12"
+			}
 		}
 		"Speed_Backwards"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Speed_Backwards"
-			"xpos"									"21"
-			"ypos"									"3"
+			"xpos"									"76+7"
+			"ypos"									"5"
 			"zpos"									"2"
-			"wide"									"6"
-			"tall"									"6"
+			"wide"									"7"
+			"tall"									"7"
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -249,46 +308,27 @@
 			"image"									"../hud/cart_arrow_left"
 			"scaleImage"							"1"
 
+			"if_multiple_trains"
+			{
+				"xpos"								"76+5"
+				"wide"								"6"
+				"tall"								"6"
+			}
 			"if_multiple_trains_top"
 			{
-				"ypos"								"3"
+				"ypos"								"5"
 			}
 			"if_multiple_trains_bottom"
 			{
-				"ypos"								"36"
-			}
-		}
-		"CapNumPlayers"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"CapNumPlayers"
-			"xpos"									"13"
-			"ypos"									"3"
-			"zpos"									"4"
-			"wide"									"20"
-			"tall"									"7"
-			"visible"								"0"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"font"									"DefaultVerySmall"
-			"labelText"								"#ControlPointIconCappers"
-			"textAlignment"							"center"
-
-			"if_multiple_trains_top"
-			{
-				"ypos"								"3"
-			}
-			"if_multiple_trains_bottom"
-			{
-				"ypos"								"36"
+				"ypos"								"rs1-18"
 			}
 		}
 		"Blocked"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Blocked"
-			"xpos"									"20"
-			"ypos"									"3"
+			"xpos"									"76+7"
+			"ypos"									"5"
 			"zpos"									"2"
 			"wide"									"7"
 			"tall"									"7"
@@ -299,19 +339,55 @@
 			"image"									"../hud/cart_blocked"
 			"scaleImage"							"1"
 
+			"if_multiple_trains"
+			{
+				"xpos"								"76+5"
+				"wide"								"6"
+				"tall"								"6"
+			}
 			"if_multiple_trains_top"
 			{
-				"ypos"								"3"
+				"ypos"								"5"
 			}
 			"if_multiple_trains_bottom"
 			{
-				"ypos"								"36"
+				"ypos"								"rs1-18"
 			}
 		}
-
-		//================================================================================================================================================
-		// REMOVED ELEMENTS
-		//================================================================================================================================================
-		"EscortTeardrop"{"ControlName" "EditablePanel" "fieldName" "EscortTeardrop" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+		"CapPlayerImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"CapPlayerImage"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"EscortItemImageAlert"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"EscortItemImageAlert"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"EscortTeardrop"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"EscortTeardrop"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"EscortHilightSwoop" { "ControlName" "CControlPointIconSwoop" "fieldName" "EscortHilightSwoop" "xpos" "9999" "alpha" "0" }
 	}
+	
 }

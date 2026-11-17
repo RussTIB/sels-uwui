@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/uber"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	"$additive"			0
+	"$no_fullbright"	1
+	"%keywords" "tf"
+}
